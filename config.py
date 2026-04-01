@@ -10,10 +10,11 @@ SUPABASE_KEY = os.getenv("SUPABASE_KEY")
 ADMIN_GROUP_ID = os.getenv("ADMIN_GROUP_ID", "0")
 BOT_NAME = os.getenv("BOT_NAME", "Shadow Game Shop")
 
-# Phone Numbers (Error တက်နေတဲ့ နာမည်တွေကို ဒီမှာ အကုန်ထည့်ပေးထားပါတယ်)
+# Phone & Password Info (အခု Error တက်နေတဲ့ နာမည်တွေကို ဒီမှာ အကုန်ထည့်ထားပါတယ်)
 YOUR_GAME_SHOP_PHONE = os.getenv("YOUR_GAME_SHOP_PHONE", "09680072956")
 WAVE_GAME_SHOP_PHONE = os.getenv("WAVE_GAME_SHOP_PHONE", "09680072956")
-YGYI_GAME_SHOP_PHONE = os.getenv("YGYI_GAME_SHOP_PHONE", "09680072956") # ဒီစာကြောင်းကို အခု Error အတွက် ထည့်ထားပါတယ်
+YGYI_GAME_SHOP_PHONE = os.getenv("YGYI_GAME_SHOP_PHONE", "09680072956")
+YGYI_GAME_SHOP_PASS = os.getenv("YGYI_GAME_SHOP_PASS", "123456") # အခုတက်နေတဲ့ Error အတွက်
 
 # Payment Links
 Kpay_QR_link = os.getenv("Kpay_QR_link", "https://i.ibb.co/XXXXX/kbzpay-qr.png")
