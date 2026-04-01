@@ -1,15 +1,7 @@
 import os
-from dotenv import load_dotenv
-
-load_dotenv()
 
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 APIFY_API_TOKEN = os.getenv("APIFY_API_TOKEN")
 SUPABASE_URL = os.getenv("SUPABASE_URL")
 SUPABASE_KEY = os.getenv("SUPABASE_KEY")
-
-BOT_NAME = "SHADOW GAME SHOP (ဆိုင်ခွဲ)"
-YGYI_GAME_SHOP_PHONE = "09680072956"
-YGYI_GAME_SHOP_PASS = "130943"
-PRICE_MARKUP_PERCENTAGE = 5
-
+ADMIN_GROUP_ID = os.getenv("ADMIN_GROUP_ID", "0") # ဒီစာကြောင်း ပါရပါမယ်
